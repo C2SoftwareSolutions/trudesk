@@ -8064,30 +8064,7 @@ a.uk-thumbnail:focus {
     display: none !important;
   }
 }
-/* Tablets portrait */
-@media (min-width: 768px) and (max-width: 959px) {
-  .uk-visible-small {
-    display: none !important;
-  }
-  .uk-visible-large {
-    display: none !important ;
-  }
-  .uk-hidden-medium {
-    display: none !important;
-  }
-}
-/* Phone landscape and smaller*/
-@media (max-width: 767px) {
-  .uk-visible-medium {
-    display: none !important;
-  }
-  .uk-visible-large {
-    display: none !important;
-  }
-  .uk-hidden-small {
-    display: none !important;
-  }
-}
+
 /* Remove from the flow and screen readers on any device */
 .uk-hidden {
   display: none !important;
