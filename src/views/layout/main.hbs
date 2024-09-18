@@ -71,15 +71,6 @@
         <h4 style="font-size: 24px; font-weight: 300; margin-left: 25px;">Please Wait...</h4>
     </div>
 </div>
-<div id="nomobile" class="uk-visible-small uk-hidden-medium uk-hidden-large" style="
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    z-index: 99999999;
-    background: #f6f6f6;
-">
 
 <div class="disconnected loader-wrapper" style="display: none; opacity: 0; z-index: 999997;">
     <div class="shadow-wrapper">
@@ -138,11 +129,6 @@
 {{#block "js-plugins"}}
 
 {{/block}}
-<script type="text/javascript">
-    if (screen.width <= 800) {
-        document.location = '/mobile';
-    }
-</script>
 
 <script src="/js/trudesk.min.js"></script>
 
